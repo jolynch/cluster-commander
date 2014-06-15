@@ -1,0 +1,10 @@
+nodes: ["server8", "server1", "server2", "server3", "server4"]
+shards: ["shard1", "shard2"]
+node_to_shard:
+    "server1": ["shard1", "shard2"]
+    "server2": ["shard1", "shard2"]
+    "server3": ["shard1", "shard2"]
+    "server4": ["shard1", "shard2"]
+    "server8": ["shard1", "shard2"]
+
+min_replication: 2
